@@ -4,7 +4,7 @@
   register: default_token
   changed_when: false
   until: default_token.rc == 0
-  delay: 1
+  delay: 3
   retries: 20
 
 - name: Rotate Tokens | Get default token data
