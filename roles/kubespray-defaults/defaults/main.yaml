@@ -114,7 +114,7 @@ kube_pods_subnet: 10.233.64.0/18
 #  - kube_service_addresses: 10.192.0.0/13
 #  - kube_pods_subnet: 10.200.0.0/13
 #  - kube_network_node_prefix: 25
-kube_network_node_prefix: 24
+#kube_network_node_prefix: 24
 
 # The virtual cluster IP, real host IPs and ports the API Server will be
 # listening on.
